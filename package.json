@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "Jonathan Peterson"
+    "name": "wgbbiao"
   },
   "bugs": {
     "url": "https://github.com/eonasdan/bootstrap-datetimepicker/issues"
@@ -32,10 +32,10 @@
     "grunt-string-replace": "latest",
     "load-grunt-tasks": "latest"
   },
-  "homepage": "http://eonasdan.github.io/bootstrap-datetimepicker/",
+  "homepage": "https://github.com/wgbbiao/bootstrap4-datetimepicker",
   "keywords": [
     "twitter-bootstrap",
-    "bootstrap",
+    "bootstrap-4",
     "datepicker",
     "datetimepicker",
     "timepicker",
@@ -43,10 +43,10 @@
   ],
   "license": "MIT",
   "main": "src/js/bootstrap-datetimepicker.js",
-  "name": "eonasdan-bootstrap-datetimepicker",
+  "name": "bootstrap4-datetimepicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eonasdan/bootstrap-datetimepicker.git"
+    "url": "https://github.com/wgbbiao/bootstrap4-datetimepicker.git"
   },
   "version": "5.2.3"
 }
