@@ -191,6 +191,7 @@
   height: 20px;
   line-height: 20px;
   width: 20px;
+  padding: 5px;
 }
 .bootstrap-datetimepicker-widget table td.day:hover, .bootstrap-datetimepicker-widget table td.hour:hover, .bootstrap-datetimepicker-widget table td.minute:hover, .bootstrap-datetimepicker-widget table td.second:hover {
   background: #eceeef;

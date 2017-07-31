@@ -143,7 +143,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-nuget');
 
   require('load-grunt-tasks')(grunt);
-  grunt.registerTask('default', ['sass', 'env:paris', 'connect', 'jasmine']);
+  grunt.registerTask('default', ['uglify','sass', 'env:paris', 'connect', 'jasmine']);
   grunt.registerTask('build:travis', [
     // code style
     'jshint', 'jscs',

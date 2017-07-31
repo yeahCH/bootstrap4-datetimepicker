@@ -315,7 +315,7 @@
                     row.push($('<td>').append($('<a>').attr({ 'data-action': 'today', 'title': options.tooltips.today }).append($('<span>').addClass(options.icons.today))));
                 }
                 if (!options.sideBySide && hasDate() && hasTime()) {
-                    row.push($('<td>').append($('<a>').attr({ 'data-action': 'togglePicker', 'title': options.tooltips.selectTime }).append($('<span>').addClass(options.icons.time))));
+                    row.push($('<td>').append($('<a>').attr({ 'data-action': 'togglePicker','href':'#', 'title': options.tooltips.selectTime }).append($('<span>').addClass(options.icons.time))));
                 }
                 if (options.showClear) {
                     row.push($('<td>').append($('<a>').attr({ 'data-action': 'clear', 'title': options.tooltips.clear }).append($('<span>').addClass(options.icons.clear))));
@@ -365,7 +365,7 @@
                     content.append(toolbar);
                 }
                 if (hasDate()) {
-                    content.append($('<li>').addClass((options.collapse && hasTime() ? 'collapse in' : '')).append(dateView));
+                    content.append($('<li>').addClass((options.collapse && hasTime() ? 'collapse show' : '')).append(dateView));
                 }
                 if (options.toolbarPlacement === 'default') {
                     content.append(toolbar);
@@ -1100,8 +1100,8 @@
                 togglePicker: function (e) {
                     var $this = $(e.target),
                         $parent = $this.closest('ul'),
-                        expanded = $parent.find('.in'),
-                        closed = $parent.find('.collapse:not(.in)'),
+                        expanded = $parent.find('.show'),
+                        closed = $parent.find('.collapse:not(.show)'),
                         collapseData;
 
                     if (expanded && expanded.length) {
@@ -1113,8 +1113,8 @@
                             expanded.collapse('hide');
                             closed.collapse('show');
                         } else { // otherwise just toggle in class on the two views
-                            expanded.removeClass('in');
-                            closed.addClass('in');
+                            expanded.removeClass('show');
+                            closed.addClass('show');
                         }
                         if ($this.is('span')) {
                             $this.toggleClass(options.icons.time + ' ' + options.icons.date);
@@ -2460,15 +2460,15 @@
         disabledDates: false,
         enabledDates: false,
         icons: {
-            time: 'glyphicon glyphicon-time',
-            date: 'glyphicon glyphicon-calendar',
-            up: 'glyphicon glyphicon-chevron-up',
-            down: 'glyphicon glyphicon-chevron-down',
-            previous: 'glyphicon glyphicon-chevron-left',
-            next: 'glyphicon glyphicon-chevron-right',
-            today: 'glyphicon glyphicon-screenshot',
-            clear: 'glyphicon glyphicon-trash',
-            close: 'glyphicon glyphicon-remove'
+            time: 'iconfont icon-time',
+            date: 'iconfont icon-rili',
+            up: 'iconfont icon-up',
+            down: 'iconfont icon-down',
+            previous: 'iconfont icon-prev',
+            next: 'iconfont icon-next',
+            today: 'iconfont glyphicon-screenshot',
+            clear: 'iconfont icon-trash',
+            close: 'iconfont icon-remove'
         },
         tooltips: {
             today: 'Go to today',
