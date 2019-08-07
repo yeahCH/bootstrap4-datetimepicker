@@ -12,7 +12,8 @@ We are serving the files under the `/build` directory and serving nothing else. 
 
 ## Dependencies
 - jQuery
-- Moment JS
+- Bootstrap 4
+- Moment JS ([Download](https://momentjs.com/downloads/moment.min.js))
 
 ## How to use
 ### Installation
