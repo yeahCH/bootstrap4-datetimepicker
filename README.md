@@ -71,6 +71,8 @@ jQuery(document).ready(function($) {
     }
 });
 ```
+## Why din't we make a pull request?
+Because the original Eonasdan's version is unmaintained for years. And we're in a rush, and did this in a mid-point of a project, so have not much time to go for a proper PR. :)
 
 ## Thanks
 Thanks to [`Eonasdan`](https://github.com/Eonasdan) for the awesome library. Thanks to 非良 (`wgbbiao`) for their fork too. Thanks to [Camille Anelli's blog](https://www.camilleanelli.fr/datetimepicker-bootstrap4/) for the reminder about the icons.
