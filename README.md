@@ -4,11 +4,11 @@
 
 This is a forked version of [`wgbbiao/bootstrap4-datetimepicker`](https://github.com/wgbbiao/bootstrap4-datetimepicker) which was a forked version of the original [Bootstrap 3 DateTimePicker by _Eonasdan_](https://github.com/Eonasdan/bootstrap-datetimepicker). We found that, the wgbbiao's version is not working in our BS4 environment. So we fixed some things.
 
-Here we are serving only the necessary built files from the base repos for our use in BS4 environment. What we did is simple: simply replaced the BS3 classes for collapsibles from `in` to `show`. And that's it.
+Here we are serving only the necessary built files from the base repos for our use in BS4 environment. What we did is simple: [simply replaced the BS3 classes for collapsibles from `in` to `show`](https://github.com/technovistalimited/bootstrap4-datetimepicker/commit/c70bb0dc06fda11661a66b58225bba8029994710). And that's it. Without build system, we minified the JS with [javascript-minifier.com](https://javascript-minifier.com/).
 
 We _did nothing_ in the CSS but removed the `standalone.css`.
 
-We are serving the files under the `/build` directory and serving nothing else. You can follow any of the original versions.
+We are serving the files under the `/build` directory and serving nothing else. You can follow any of the original versions if you need.
 
 ## Dependencies
 - jQuery
@@ -32,7 +32,7 @@ In `<head>` load the stylesheets.
 - Moment JS
 - Bootstrap Datetimepicker JS
 
-In `<head>` load the stylesheets.
+Before `</body>` load the javascripts.
 ```html
     <!-- jQuery and Bootstrap JS with their dependencies here -->
 
@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
 ```
 
 ## Thanks
-Thanks to [Eonasdan](https://github.com/Eonasdan) for the awesome library. Thanks to 非良 (wgbbiao) for their fork too.
+Thanks to [`Eonasdan`](https://github.com/Eonasdan) for the awesome library. Thanks to 非良 (`wgbbiao`) for their fork too. Thanks to [Camille Anelli's blog](https://www.camilleanelli.fr/datetimepicker-bootstrap4/) for the reminder about the icons.
 
 ----
 <sup>TechnoVista Limited 20190807121527</sup>
