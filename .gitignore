@@ -10,3 +10,4 @@ site
 *.sln
 *.nupkg
 index.html
+.history
