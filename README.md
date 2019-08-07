@@ -10,6 +10,20 @@ We _did nothing_ in the CSS but removed the `standalone.css`.
 
 We are serving the files under the `/build` directory and serving nothing else. You can follow any of the original versions if you need.
 
+## Table of Contents
+
+<!-- MarkdownTOC -->
+
+- [Dependencies](#user-content-dependencies)
+- [How to use](#user-content-how-to-use)
+    - [Installation](#user-content-installation)
+    - [Basic usage](#user-content-basic-usage)
+- [Why din't we make a pull request?](#user-content-why-dint-we-make-a-pull-request)
+- [Thanks](#user-content-thanks)
+
+<!-- /MarkdownTOC -->
+
+
 ## Dependencies
 - jQuery
 - Bootstrap 4
