@@ -77,7 +77,7 @@ jQuery(document).ready(function($) {
                 down: 'fa fa-chevron-down',
                 previous: 'fa fa-chevron-left',
                 next: 'fa fa-chevron-right',
-                today: 'glyphicon glyphicon-screenshot',
+                today: 'fa fa-check',
                 clear: 'fa fa-trash',
                 close: 'fa fa-times'
             }
@@ -92,4 +92,4 @@ Because the original Eonasdan's version is unmaintained for years. And we're in 
 Thanks to [`Eonasdan`](https://github.com/Eonasdan) for the awesome library. Thanks to 非良 (`wgbbiao`) for their fork too. Thanks to [Camille Anelli's blog](https://www.camilleanelli.fr/datetimepicker-bootstrap4/) for the reminder about the icons.
 
 ----
-<sup>TechnoVista Limited 20190807121527</sup>
+<sup>TechnoVista Limited 20190909174850/sup>
