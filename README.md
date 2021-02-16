@@ -1,5 +1,13 @@
 # Bootstrap DateTimePicker for Bootstrap 4
 
+> Fontawesome 5 compatible (not using glyphicon)
+## Latest update
+ Original bootstrap-datetimepicker was developed to use glyphicon.
+
+ But while updating into v4.x, bootstrap recommends not to use glyphicon, and use others like fontawesome.
+ 
+ So it is modified for this purpose.
+
 > 100% Compatible with Bootstrap 4.3.1
 
 This is a forked version of [`wgbbiao/bootstrap4-datetimepicker`](https://github.com/wgbbiao/bootstrap4-datetimepicker) which was a forked version of the original [Bootstrap 3 DateTimePicker by _Eonasdan_](https://github.com/Eonasdan/bootstrap-datetimepicker). We found that, the wgbbiao's version is not working in our BS4 environment. So we fixed some things.
